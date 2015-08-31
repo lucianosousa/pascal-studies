@@ -1,0 +1,45 @@
+object frmFirst: TfrmFirst
+  Left = 259
+  Height = 333
+  Top = 109
+  Width = 462
+  Caption = 'My first example'
+  ClientHeight = 333
+  ClientWidth = 462
+  LCLVersion = '1.4.2.0'
+  object Label1: TLabel
+    Left = 72
+    Height = 16
+    Top = 40
+    Width = 65
+    Caption = 'Text Input'
+    ParentColor = False
+  end
+  object txtBox: TEdit
+    Left = 170
+    Height = 22
+    Top = 40
+    Width = 220
+    OnChange = txtBoxChange
+    TabOrder = 0
+    Text = 'txtBox'
+  end
+  object btnClear: TButton
+    Left = 72
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Clear'
+    OnClick = btnClearClick
+    TabOrder = 1
+  end
+  object btnSend: TButton
+    Left = 315
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Send'
+    OnClick = btnSendClick
+    TabOrder = 2
+  end
+end
